@@ -83,3 +83,55 @@
 	margin-left: 3px;
 }
 /*------End_Header-------*/
+
+/*-------Second_block-----*/
+.second-block{
+	background-color: #f5f6f7;
+	height: 494px;
+}
+.text-block{
+	display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin-top: 111px;
+    margin-left: 34px;
+}
+.text-block__title{
+	display: block;
+	color: #159f85;
+	font-family:'GothamRounded-Bold';
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+}
+.text-block__content{
+	display: block;
+	color: #373737;
+	font-family:'GothamRounded-Book';
+	font-size: 12px;
+	line-height: 2;
+    margin-top: 43px;
+}
+.text-block__conten_bold{
+	color:#000;
+	font-family:'GothamRounded-Bold';
+}
+.text-block__button{
+	color: #fff;
+	font-size: 12px;
+	font-family:'GothamRounded-Bold';
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background-color: #159f85;
+	letter-spacing: 2.5px;
+}
+.img-block{
+	display: inline-block;
+    position: relative;
+    top: 91px;
+    left: -3px;
+}
+/*-------End_Second_block-----*/
