@@ -112,6 +112,7 @@
 	font-size: 12px;
 	line-height: 2;
     margin-top: 43px;
+    margin-bottom: 84px;
 }
 .text-block__conten_bold{
 	color:#000;
@@ -127,11 +128,22 @@
 	border-radius: 3px;
 	background-color: #159f85;
 	letter-spacing: 2.5px;
+	padding: 20px 37px 16px 41px;
 }
 .img-block{
 	display: inline-block;
     position: relative;
     top: 91px;
     left: -3px;
+    z-index: 1;
 }
 /*-------End_Second_block-----*/
+
+/*--------Design------------*/
+.design{
+	position: relative;
+	z-index: 99999;
+	background: #fff;
+}
+
+/*--------End_Design------------*/
