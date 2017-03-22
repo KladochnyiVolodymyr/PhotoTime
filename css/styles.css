@@ -226,7 +226,7 @@
 	position: relative;
 	z-index: 99999;
 	padding-top: 91px;
-	padding-bottom: 117px;
+	padding-bottom: 115px;
 }
 .community__arrows{
 	float: right;
@@ -280,3 +280,49 @@
 	margin-left: 20px;
 }
 /*--------End_Community-------------*/
+
+/*---------Subscribe----------*/
+.subscribe{
+	background: url('../images/subscribe-bg.png')no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 349px;
+	padding-bottom: 325px;
+}
+.subscribe__title{
+	color: #fff;
+	font-family:'GothamRounded-Bold';
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3.7px;
+    padding-left: 6px;
+}
+.subscribe__form{
+	margin-top: 31px;
+    margin-right: -3px;
+}
+.subscribe__form_input{
+	border: none;
+	border-radius: 3px 0 0 3px;
+	font-family:'GothamRounded-Medium';
+	font-size: 16px;
+	color: #000;
+	text-transform: uppercase;
+	outline: none;
+	width: 280px;
+	height: 58px;
+	letter-spacing: 2.3px;
+}
+.subscribe__form_button{
+	border: none;
+	border-radius: 0 3px 3px 0;
+	background-color: #159f85;
+	font-size: 16px;
+	color: #fff;
+	width: 63px;
+	height: 60px;
+	position: relative;
+    right: 4px;
+}
+/*---------End_Subscribe----------*/
