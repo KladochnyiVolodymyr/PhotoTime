@@ -86,7 +86,7 @@
 /*-------Second_block-----*/
 .second-block{
 	background-color: #f5f6f7;
-	height: 494px;
+	height: 492px;
 }
 .text-block{
 	display: inline-block;
@@ -146,18 +146,20 @@
 	position: relative;
 	z-index: 99999;
 	background: #fff;
+	margin-bottom: -62px;
 }
 .design__phone{
 	display: inline-block;
 	position: relative;
-    top: 144px;
+    top: 146px;
     left: 28px;
+    z-index: 1;
 }
 .design__content{
 	display: inline-block;
 	float: right;
 	margin-right: -17px;
-    margin-top: 142px;
+    margin-top: 144px;
     width: 40%;
 }
 .design__title{
@@ -216,5 +218,65 @@
 	font-size: 30px;
 	color: #000;
 }
-
 /*--------End_Design------------*/
+
+/*--------Community-------------*/
+.community{
+	background: #f5f6f7;
+	position: relative;
+	z-index: 99999;
+	padding-top: 91px;
+	padding-bottom: 117px;
+}
+.community__arrows{
+	float: right;
+	margin-right: 32px;
+    margin-top: -4px;
+}
+.community__arrow_right{
+	margin-left: 13px;
+	font-size: 30px;
+	color: #000;
+}
+.community__arrow_left{
+	margin-left: 2px;
+	font-size: 30px;
+	color: #000;
+}
+.community__content{
+	display: inline-block;
+	text-align: center;
+    vertical-align: top;
+    margin-left: 33px;
+    margin-top: 75px;
+    float: left;
+}
+.community__content_title{
+	display: block;
+	color: #373737;
+	font-family:'GothamRounded-Bold';
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 27px;
+    letter-spacing: 2.3px;
+}
+.community__content_text{
+	display: block;
+	color: #373737;
+	font-family:'GothamRounded-Medium';
+	font-size: 10px;
+	line-height: 1.2;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    margin-right: -3px;
+}
+.community__images{
+	display: inline-block;
+	margin-left: 81px;
+    margin-top: 5px;
+}
+.community__images_second{
+	margin-left: 20px;
+}
+/*--------End_Community-------------*/
