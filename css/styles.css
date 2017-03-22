@@ -45,15 +45,15 @@
 	font-family:'GothamRounded-Bold';
 	font-size: 36px;
 	text-transform: uppercase;
-	letter-spacing: 2.5px;
-	padding-right: 44px;
+	letter-spacing: 5.5px;
+    padding-left: 9px;
 }
 .main-text{
 	display: block;
 	font-family:'GothamRounded-Medium';
 	color: #fff;
 	font-size: 16px;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.4px;
     margin-top: 13px;
     margin-left: 4px;
     margin-bottom: 43px;
@@ -67,9 +67,8 @@
 	text-transform: uppercase;
 	border-radius: 3px;
 	background-color: #159f85;
-	letter-spacing: 2.5px;
-    margin-left: 1px;
-    padding: 18px 23px 16px 29px;
+	letter-spacing: 2px;
+    padding: 18px 28px 16px 30px;
 }
 .header__bottom{
 	padding-bottom: 23px;
@@ -91,10 +90,10 @@
 }
 .text-block{
 	display: inline-block;
-    width: 35%;
+    width: 40%;
     vertical-align: top;
     margin-top: 111px;
-    margin-left: 34px;
+    margin-left: 32px;
 }
 .text-block__title{
 	display: block;
@@ -102,8 +101,9 @@
 	font-family:'GothamRounded-Bold';
 	font-size: 18px;
 	font-weight: bold;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.6px;
 	text-transform: uppercase;
+	line-height: 1.1;
 }
 .text-block__content{
 	display: block;
@@ -111,8 +111,9 @@
 	font-family:'GothamRounded-Book';
 	font-size: 12px;
 	line-height: 2;
-    margin-top: 43px;
-    margin-bottom: 84px;
+    margin-top: 41px;
+    margin-bottom: 82px;
+    letter-spacing: 1.8px;
 }
 .text-block__conten_bold{
 	color:#000;
@@ -127,8 +128,8 @@
 	text-transform: uppercase;
 	border-radius: 3px;
 	background-color: #159f85;
-	letter-spacing: 2.5px;
-	padding: 20px 37px 16px 41px;
+	letter-spacing: 2px;
+    padding: 20px 43px 16px 41px;
 }
 .img-block{
 	display: inline-block;
@@ -145,5 +146,51 @@
 	z-index: 99999;
 	background: #fff;
 }
-
+.design__phone{
+	display: inline-block;
+	position: relative;
+    top: 144px;
+    left: 28px;
+}
+.design__content{
+	display: inline-block;
+	float: right;
+	margin-right: 81px;
+    margin-top: 142px;
+    width: 31%;
+}
+.design__title{
+	color: #159f85;
+	font-family:'GothamRounded-Bold';
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    margin-left: -1px
+}
+.design__text{
+	display: block;
+	color: #373737;
+	font-family:'GothamRounded-Book';
+	font-size: 12px;
+	line-height: 2;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.design__text_bold{
+	color:#000;
+	font-family:'GothamRounded-Bold';
+}
+.design__button{
+	color: #fff;
+	font-size: 12px;
+	font-family:'GothamRounded-Bold';
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #159f85;
+	letter-spacing: 2px;
+    padding: 18px 46px 18px 42px;
+    margin-left: 2px;
+}
 /*--------End_Design------------*/
