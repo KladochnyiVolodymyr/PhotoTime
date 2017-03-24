@@ -324,5 +324,91 @@
 	height: 60px;
 	position: relative;
     right: 4px;
+    outline:none;
+    cursor: pointer;
 }
 /*---------End_Subscribe----------*/
+
+/*-----------Download--------------*/
+.download{
+	background: #f5f6f7;
+	text-align: center;
+	padding-top: 89px;
+	padding-bottom: 111px;
+}
+.download__title{
+	color: #373737;
+	font-family:'GothamRounded-Bold';
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	letter-spacing: 3px;
+	margin-bottom: 8px;
+}
+.download__text{
+	color: #373737;
+	font-family:'GothamRounded-Medium';
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+    line-height: 1.9;
+}
+.download__buttons_wrap{
+	display: inline-block;
+	background-color: #19bb9b;
+}
+.download__buttons_text{
+	color: #fff;
+	font-family:'GothamRounded-Bold';
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*-----------End_Download--------------*/
+
+input.subscribe__form_input::-webkit-input-placeholder{
+	color: red;
+}
+
+/*----------Footer------------*/
+.footer{
+	padding-top: 44px;
+    padding-left: 61px;
+    padding-bottom: 35px;
+}
+.footer__nav{
+	margin-bottom: 20px;
+}
+.footer__nav_item{
+	display: inline-block;
+	margin-right: 6px;
+}
+.footer__nav_link{
+	color: #373737;
+	font-family:'GothamRounded-Bold';
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-right: 1px solid #16a085;
+	padding-right: 9px;
+}
+.footer__copyright{
+	color: #373737;
+	font-family:'GothamRounded-Bold';
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2.1px;
+}
+.footer__content{
+	display: inline-block;
+}
+.footer__logo{
+	float: right;
+    margin-right: 63px;
+    position: relative;
+    bottom: 6px;
+}
+/*--------End_Footer------------*/
