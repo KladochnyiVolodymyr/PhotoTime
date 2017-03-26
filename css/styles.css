@@ -239,7 +239,7 @@
 	position: relative;
 	z-index: 99999;
 	padding-top: 91px;
-	padding-bottom: 115px;
+	padding-bottom: 116px;
 }
 .community__arrows{
 	float: right;
@@ -261,7 +261,7 @@
 	text-align: center;
     vertical-align: top;
     margin-left: 33px;
-    margin-top: 75px;
+    margin-top: 74px;
     float: left;
 }
 .community__content_title{
@@ -287,7 +287,7 @@
 .community__images{
 	display: inline-block;
 	margin-left: 81px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .community__images_second{
 	margin-left: 20px;
@@ -366,7 +366,7 @@ input.subscribe__form_input:-ms-input-placeholder{
 	background: #f5f6f7;
 	text-align: center;
 	padding-top: 89px;
-	padding-bottom: 111px;
+	padding-bottom: 115px;
 }
 .download__title{
 	color: #373737;
@@ -386,16 +386,54 @@ input.subscribe__form_input:-ms-input-placeholder{
 	letter-spacing: 1.8px;
     line-height: 1.9;
 }
-.download__buttons_wrap{
-	display: inline-block;
-	background-color: #19bb9b;
+.download__buttons{
+	padding-top: 40px;
 }
 .download__buttons_text{
 	color: #fff;
-	font-family:'GothamRounded-Bold';
+    font-family: 'GothamRounded-Bold';
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #1abc9c;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 297px;
+    padding: 23px 0px 17px 24px;
+    border-radius: 3px;
+    text-align: left;
+    letter-spacing: 2.45px;
+}
+.download__buttons_text:after{
+	position: absolute;
+    right: 0px;
+    width: 56px;
+    height: 56px;
+    top: 0%;
+    background-color: #16a085;
+    padding-top: 16px;
+    box-sizing: border-box;
+    border-radius: 0px 3px 3px 0px;
+    text-align: center;
+}
+.download__buttons_apple{
+	margin-right: 13px;
 	font-size: 16px;
-	font-weight: bold;
-	text-transform: uppercase;
+}
+.download__buttons_android{
+	margin-left: 12px;
+	font-size: 18px;
+	padding: 21px 0px 18px 30px;
+}
+.download__buttons_apple:after{
+	content: "\f179";
+    font: normal normal normal 26px/1 FontAwesome;
+    position: absolute;
+}
+.download__buttons_android:after{
+    content: "\f17b";
+    font: normal normal normal 29px/1 FontAwesome;
+    padding-top: 13px;
 }
 /*-----------End_Download--------------*/
 
