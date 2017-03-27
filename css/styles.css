@@ -92,6 +92,9 @@
 .header__bottom{
 	padding-bottom: 23px;
 }
+.header__bottom a:hover{
+	color: #1abc9c;
+}
 .header-icon{
 	color: #fff;
 	font-size: 25px;
