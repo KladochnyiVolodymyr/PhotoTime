@@ -19,6 +19,9 @@
 .menu__item{
 	display: inline-block;
 }
+.menu__link:hover{
+	color: #1abc9c;
+}
 .menu__item:nth-child(1) {
 	margin-left: 175px;
 }
