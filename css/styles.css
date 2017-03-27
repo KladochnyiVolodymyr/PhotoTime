@@ -83,6 +83,9 @@
 	letter-spacing: 2px;
     padding: 18px 28px 16px 30px;
 }
+.main-button:hover{
+	background-color: #1abc9c;
+}
 .header__bottom{
 	padding-bottom: 23px;
 }
@@ -143,6 +146,9 @@
 	background-color: #159f85;
 	letter-spacing: 2px;
     padding: 20px 42px 16px 43px;
+}
+.text-block__button:hover{
+	background-color: #1abc9c;
 }
 .img-block{
 	display: inline-block;
@@ -210,6 +216,9 @@
 	letter-spacing: 2px;
     padding: 18px 46px 18px 42px;
     margin-left: 2px;
+}
+.design__button:hover{
+	background-color: #1abc9c;
 }
 .design__count{
 	display: block;
@@ -345,6 +354,9 @@
     padding: 19px;
     float: left;
 }
+.subscribe__form_button:hover{
+	background-color: #1abc9c;
+}
 .subscribe__form:after{
 	content: "";
 	clear: both;
@@ -420,10 +432,16 @@ input.subscribe__form_input:-ms-input-placeholder{
 	margin-right: 13px;
 	font-size: 16px;
 }
+.download__buttons_apple:hover{
+	background-color: #16a085;
+}
 .download__buttons_android{
 	margin-left: 12px;
 	font-size: 18px;
 	padding: 21px 0px 18px 30px;
+}
+.download__buttons_android:hover{
+	background-color: #16a085;
 }
 .download__buttons_apple:after{
 	content: "\f179";
